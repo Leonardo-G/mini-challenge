@@ -21,3 +21,8 @@ p, h1, h2, span, a{
     width: min(90%, 130rem);
     margin: 0 auto;
 }
+
+.container-form{
+    width: min(90%, 40rem);
+    margin: 0 auto;
+}
