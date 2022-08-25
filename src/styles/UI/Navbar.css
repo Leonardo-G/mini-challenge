@@ -1,0 +1,17 @@
+.nav{
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+    padding: 10px 0;
+}
+
+.nav__urls{
+    display: flex;
+    justify-content: center;
+}
+
+.nav__urls a{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 2rem;
+}

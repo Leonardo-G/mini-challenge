@@ -1,7 +1,16 @@
-import React from 'react'
+import { Link } from "react-router-dom"
+import "../../styles/UI/Navbar.css"
 
 export const Navbar = () => {
+
     return (
-        <nav>Navbar</nav>
+        <nav className="nav">
+            <div className="container">
+                <div className="nav__urls">
+                    <Link to="/">Inicio</Link>
+                    <Link to="/">Formulario</Link>
+                </div>
+            </div>
+        </nav>
     )
 }

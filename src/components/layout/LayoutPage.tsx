@@ -2,13 +2,17 @@ import React, { FC, ReactNode } from 'react'
 import { Navbar } from '../ui/Navbar'
 
 interface Props {
-    children: ReactNode
+    titleHead: string;
+    children: ReactNode;
 }
 
-export const LayoutPage: FC<Props> = ({ children }) => {
+export const LayoutPage: FC<Props> = ({ titleHead, children }) => {
+
+    document.title = titleHead
+
     return (
         <>
-            <header>
+            <header style={{ width: "100%" }}>
                 <Navbar />
             </header>
             <main>

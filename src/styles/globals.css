@@ -1,0 +1,23 @@
+*, *::after, *::before{
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+p, h1, h2, span, a{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: min(90%, 130rem);
+    margin: 0 auto;
+}
